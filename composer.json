@@ -1,6 +1,7 @@
 {
   "name": "nikolajlovenhardt/laravel-google-ads",
-  "type": "library",
+  "type": "vcs",
+  "url": "https://github.com/emilianotisato/laravel-google-ads",
   "description": "Google Ads API for Laravel",
   "minimum-stability": "dev",
   "keywords": [
@@ -21,8 +22,8 @@
   "require": {
     "php": ">=5.5.9",
     "ext-soap": "*",
-    "illuminate/console": "~5.1",
-    "illuminate/support": "~5.1",
+    "illuminate/console": "5.3.*",
+    "illuminate/support": "5.3.*",
     "googleads/googleads-php-lib": "~13.1.0"
   },
   "require-dev": {
